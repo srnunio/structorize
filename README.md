@@ -12,56 +12,11 @@ dev_dependencies:
 
 # Setup
 
-- Note: By running this command some files in your flutter project will be modified. Example: ```main.dart``` and ```pubspec.yaml```
+- Note: By running this command some files in your flutter project will be modified. Example: ```main.dart``` and ```pubspec.yaml```. So I do not advise running this command in a project that already has other configurations made
 
 ```
 flutter pub run base_application:initialize
 ```
-
-This will create the following structure:
- 
-    .
-    ├── ...
-    └── lib                         # Predefined directory
-        ├── i18n 
-        │   └── base_view_model.dart
-        ├── src                     
-        │   ├── application         # Application layer includes dto and usecase
-            │   └── core 
-            │       └── base_view_model.dart 
-        │   ├── domain              # Domain layer includes model and service
-        │   ├── infrastructure      # Infrastructure layer includes repository, firebase and sqflite
-        │   ├── injection           # Injection responsible for the configuration of dependency injections 
-        │   ├── presentation        # Presentation layer includes user interface and notifier
-        │   ├── utils               # Utils responsável pela classes utilitárias  
-        │   ├── extension           # Extension responsible for configuring the extensions  
-        │   └── app.dart            # Application configuration file 
-        ├── main.dart               # Main file
-        └── route.dart              # Defines application routes
-
-### i18n
-    . 
-    ├── i18n
-    │   └── i18n.dart                
-    └── ...
-
-### application
-    .
-    ├── ...
-    ├── application
-    │   ├── core 
-    │       └── base_view_model.dart    
-    └── ...
-
-### domain
-    .
-    ├── ...
-    ├── domain
-    │   ├── core 
-    │       ├── domain    
-    │       ├── domain    
-    │       ├── domain    
-    └── ...
 
 ```
 flutter pub get
@@ -75,7 +30,27 @@ flutter pub run gen_i18n:initialize --locale-en-pt
 flutter packages pub run build_runner build --delete-conflicting-outputs
 ```
 
-## Motivation
+> It is important to run all these commands to ensure that there is no error
+
+This will create the following structure (Domain Driven Design):
+    
+    .
+    ├── ...
+    └── lib                         # Predefined directory
+        ├── i18n                    # Responsible for translation classes
+        ├── src                     
+        │   ├── application         # Application layer includes dto and usecase 
+        │   ├── domain              # Domain layer includes model and service
+        │   ├── infrastructure      # Infrastructure layer includes repository, firebase and sqflite
+        │   ├── injection           # Injection responsible for the configuration of dependency injections 
+        │   ├── presentation        # Presentation layer includes user interface and notifier
+        │   ├── utils               # Utils responsible for utility classes   
+        │   ├── extension           # Extension responsible for configuring the extensions  
+        │   └── app.dart            # Application configuration file 
+        ├── main.dart               # Main file
+        └── route.dart              # Defines application routes
+
+## Note
 
 When creating a flutter project I adopted certain patterns of developments, folder structures and others
 Settings that help me build applications: testable, scalable, and easy to maintain.

@@ -1,5 +1,5 @@
 const ABSTRANCT_INJECTION_MODULE_SCHEME = '''
-// This is code generated via package:base_application/start.dart
+// This is code generated via package:structorize/start.dart
  
 import 'package:flutter/material.dart'; 
 import 'package:injectable/injectable.dart'; 
@@ -12,7 +12,7 @@ abstract class InjectableModule {
 ''';
 
 const  INJECTION_SCHEME = '''
-// This is code generated via package:base_application/start.dart
+// This is code generated via package:structorize/start.dart
  
 import 'config.dart'; 
 
@@ -21,7 +21,7 @@ T inject<T extends Object>() => Config.getInstance().get<T>();
 ''';
 
 const  CONFIG_APP_SCHEME = '''
-// This is code generated via package:base_application/start.dart
+// This is code generated via package:structorize/start.dart
  
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';

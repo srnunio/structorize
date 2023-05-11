@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'package:path/path.dart' as path;
-import 'package:base_application/src/log.dart';
+import 'package:structorize/src/log.dart';
 
 abstract class FileTools {
   static Directory get directory => Directory.current;

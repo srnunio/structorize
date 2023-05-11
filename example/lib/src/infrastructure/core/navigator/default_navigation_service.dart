@@ -1,4 +1,4 @@
-// This is code generated via package:base_application/initialize.dart
+// This is code generated via package:base_application/start.dart
 
 import 'package:example/src/domain/core/navigator/navigation_service.dart';
 import 'package:example/src/presentation/core/transparent_page_route.dart';

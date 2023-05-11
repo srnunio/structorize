@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:base_application/src/entities/folder.dart';
+import 'package:structorize/src/entities/folder.dart';
 
 extension FolderExtension on Folder {
   /// [_forEachDepthFirst] run tree

@@ -1,7 +1,7 @@
 
 
 const COLOR_UTIL_SCHEME = '''
-// This is code generated via package:base_application/initialize.dart
+// This is code generated via package:base_application/start.dart
  
 import 'package:flutter/material.dart';
 
@@ -22,7 +22,7 @@ Color get kProgressColor => Color(0xFF00428D);
 ''';
 
 const SIZE_UTIL_SCHEME = '''
-// This is code generated via package:base_application/initialize.dart
+// This is code generated via package:base_application/start.dart
  
 import 'package:flutter/material.dart';
 
@@ -85,7 +85,7 @@ Widget horizontalSpace(double width) {
 
 
 const THEME_UTIL_SCHEME = '''
-// This is code generated via package:base_application/initialize.dart
+// This is code generated via package:base_application/start.dart
  
 import 'package:flutter/material.dart';
 import 'package:packageName/src/presentation/core/functions.dart';
@@ -130,7 +130,7 @@ abstract class ThemeUtil {
 ''';
 
 const CONSTANT_UTIL_SCHEME = '''
-// This is code generated via package:base_application/initialize.dart
+// This is code generated via package:base_application/start.dart
  
  String get fontName => 'Font';
 

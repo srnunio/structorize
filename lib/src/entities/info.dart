@@ -1,4 +1,4 @@
-import 'package:base_application/src/entities/folder.dart';
+import 'package:structorize/src/entities/folder.dart';
 
 class FileInfo {
   final String className;

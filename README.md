@@ -1,4 +1,4 @@
-# [base_application](https://pub.dev/packages/silent)
+# [structorize](https://pub.dev/packages/structorize)
 
 With just a few commands I create all
 The structure needed to get your Flutter project ready to run.
@@ -7,7 +7,7 @@ The structure needed to get your Flutter project ready to run.
 
 ```yaml
 dev_dependencies:
-  base_application: ^0.0.1
+  structorize: ^0.0.1
 ```
 
 # Setup
@@ -15,7 +15,7 @@ dev_dependencies:
 - Note: By running this command some files in your flutter project will be modified. Example: ```main.dart``` and ```pubspec.yaml```. So I do not advise running this command in a project that already has other configurations made
 
 ```
-flutter pub run base_application:initialize
+flutter pub run structorize:start
 ```
 
 ```

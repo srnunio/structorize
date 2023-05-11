@@ -1,4 +1,4 @@
-// This is code generated via package:base_application/initialize.dart
+// This is code generated via package:base_application/start.dart
 import 'package:dio/dio.dart';
 import 'package:dio/io.dart';
 

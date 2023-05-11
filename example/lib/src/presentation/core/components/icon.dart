@@ -1,4 +1,4 @@
-// This is code generated via package:base_application/initialize.dart
+// This is code generated via package:base_application/start.dart
  
 import 'package:example/src/utils/size_util.dart';
 import 'package:example/src/utils/color_util.dart';

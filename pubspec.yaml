@@ -1,8 +1,8 @@
-name: base_application
+name: structorize
 description: With just a few commands I create all The structure needed to get your Flutter project ready to run.
 version: 0.0.1
-homepage: https://github.com/srnunio/base_application
-repository: https://github.com/srnunio/base_application
+homepage: https://github.com/srnunio/structorize
+repository: https://github.com/srnunio/structorize
 
 environment:
   sdk: '>=2.18.2 <3.0.0'

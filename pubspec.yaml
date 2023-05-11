@@ -1,7 +1,8 @@
 name: base_application
 description: With just a few commands I create all The structure needed to get your Flutter project ready to run.
 version: 0.0.1
-# homepage: https://www.example.com
+homepage: https://github.com/srnunio/base_application
+repository: https://github.com/srnunio/base_application
 
 environment:
   sdk: '>=2.18.2 <3.0.0'

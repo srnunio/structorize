@@ -33,7 +33,8 @@ flutter packages pub run build_runner build --delete-conflicting-outputs
 > It is important to run all these commands to ensure that there is no error
 
 This will create the following structure (Domain Driven Design):
-    
+> Simplified View
+> 
     .
     ├── ...
     └── lib                         # Predefined directory
@@ -49,7 +50,57 @@ This will create the following structure (Domain Driven Design):
         │   └── app.dart            # Application configuration file 
         ├── main.dart               # Main file
         └── route.dart              # Defines application routes
-
+> Overview
+> 
+    |   |-- lib
+    |   |   |-- i18n
+    |   |   |   '-- i18n.dart
+    |   |   |-- main.dart
+    |   |   |-- route.dart
+    |   |   '-- src
+    |   |       |-- app.dart
+    |   |       |-- application
+    |   |       |   '-- core
+    |   |       |       |-- base_view_model.dart
+    |   |       |       '-- base_view_model.g.dart
+    |   |       |-- domain
+    |   |       |   '-- core
+    |   |       |       |-- api.dart
+    |   |       |       |-- navigator
+    |   |       |       |   '-- navigation_service.dart
+    |   |       |       '-- value_objects
+    |   |       |           '-- enum_values.dart
+    |   |       |-- infrastructure
+    |   |       |   '-- core
+    |   |       |       |-- http_client
+    |   |       |       |   |-- api_endpoints.dart
+    |   |       |       |   '-- dio_builder.dart
+    |   |       |       '-- navigator
+    |   |       |           '-- default_navigation_service.dart
+    |   |       |-- injection
+    |   |       |   |-- config.dart
+    |   |       |   |-- injectable_module.dart
+    |   |       |   '-- injection.dart
+    |   |       |-- presentation
+    |   |       |   |-- core
+    |   |       |   |   |-- animation_route.dart
+    |   |       |   |   |-- components
+    |   |       |   |   |   |-- base_component.dart
+    |   |       |   |   |   |-- bottom_sheet_container.dart
+    |   |       |   |   |   |-- default_app_bar.dart
+    |   |       |   |   |   '-- icon.dart
+    |   |       |   |   |-- functions.dart
+    |   |       |   |   '-- transparent_page_route.dart
+    |   |       |   |-- empty_screen.dart
+    |   |       |   '-- splash_screen.dart
+    |   |       '-- utils
+    |   |           |-- color_util.dart
+    |   |           |-- constants.dart
+    |   |           |-- size_util.dart
+    |   |           '-- theme_util.dart
+    |   |-- pubspec.yaml
+    |   '-- test
+    |       '-- widget_test.dart
 ## Note
 
 When creating a flutter project I adopted certain patterns of developments, folder structures and others

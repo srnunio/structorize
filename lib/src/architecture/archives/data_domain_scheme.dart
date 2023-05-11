@@ -1,7 +1,7 @@
 
 
 const ABSTRACT_NAVIGATOR_SERVICE_SCHEME  = '''
-// This is code generated via package:base_application/initialize.dart
+// This is code generated via package:base_application/start.dart
 
 import 'package:flutter/material.dart';
 
@@ -25,7 +25,7 @@ abstract class NavigationService {
 ''';
 
 const ABSTRACT_API_SCHEME = '''
-// DO NOT EDIT. This is code generated via package:not_repeat/initialize.dart
+// DO NOT EDIT. This is code generated via package:not_repeat/start.dart
 
 import 'package:dio/dio.dart';
 
@@ -36,7 +36,7 @@ abstract class Api {
 ''';
 
 const ENUM_VALUES_SCHEME  = '''
-// DO NOT EDIT. This is code generated via package:not_repeat/initialize.dart
+// DO NOT EDIT. This is code generated via package:not_repeat/start.dart
 
 class EnumValues<T> {
   late Map<String, T> map;

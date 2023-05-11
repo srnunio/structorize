@@ -1,5 +1,5 @@
 
-// DO NOT EDIT. This is code generated via package:gen_i18n/initialize.dart
+// DO NOT EDIT. This is code generated via package:gen_i18n/start.dart
 
 import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;

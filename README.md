@@ -15,7 +15,7 @@ dev_dependencies:
 - Note: By running this command some files in your flutter project will be modified. Example: ```main.dart``` and ```pubspec.yaml```. So I do not advise running this command in a project that already has other configurations made
 
 ```
-flutter pub run base_application:initialize
+flutter pub run structorize:start
 ```
 
 ```

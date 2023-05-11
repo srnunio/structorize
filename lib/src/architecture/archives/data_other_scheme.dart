@@ -1,5 +1,5 @@
 const APP_SCHEME = '''
-// This is code generated via package:base_application/initialize.dart
+// This is code generated via package:base_application/start.dart
  
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -50,7 +50,7 @@ class _AppState extends State<App> {
 ''';
 
 const ROUTE_SCHEME = '''
-// This is code generated via package:base_application/initialize.dart
+// This is code generated via package:base_application/start.dart
 
 import 'dart:io';
 import 'package:packageName/src/presentation/core/animation_route.dart';
@@ -83,7 +83,7 @@ class CustomRouter {
 ''';
 
 const MAIN_SCHEME = '''
-// This is code generated via package:base_application/initialize.dart
+// This is code generated via package:base_application/start.dart
  
 import 'package:packageName/i18n/i18n.dart';
 import 'package:packageName/src/app.dart';   
@@ -117,7 +117,7 @@ Future<void> main() async {
 
 const PUBSPEC_SCHEME = ''' 
 name: packageName
-description: This is code generated via package:base_application/initialize.dart
+description: This is code generated via package:base_application/start.dart
 publish_to: 'none' 
 
 version: 1.0.0+1
@@ -177,7 +177,7 @@ dev_dependencies:
   gen_i18n: ^1.0.0
   
   # remove this 
-  base_application:
+  structorize:
     path: ../  
 
   # Testing

@@ -1,4 +1,4 @@
-// DO NOT EDIT. This is code generated via package:not_repeat/initialize.dart
+// DO NOT EDIT. This is code generated via package:not_repeat/start.dart
 
 import 'package:dio/dio.dart';
 

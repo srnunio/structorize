@@ -1,5 +1,5 @@
 const BASE_COMPONENT_SCHEME = '''
-// This is code generated via package:base_application/start.dart
+// This is code generated via package:structorize/start.dart
  
 import 'package:flutter/material.dart';
 
@@ -12,7 +12,7 @@ abstract class BaseComponent extends StatelessWidget {
 ''';
 
 const ANIMATION_ROUTE_SCHEME = '''
-// This is code generated via package:base_application/start.dart
+// This is code generated via package:structorize/start.dart
 import 'package:flutter/material.dart';
  
 class AnimationRouterPager extends MaterialPageRoute {
@@ -29,7 +29,7 @@ class AnimationRouterPager extends MaterialPageRoute {
 ''';
 
 const FUCNCTIONS_SCHEME = '''
-// This is code generated via package:base_application/start.dart
+// This is code generated via package:structorize/start.dart
  
 import 'package:flutter/material.dart';
 import 'package:packageName/src/utils/color_util.dart';
@@ -70,7 +70,7 @@ TextStyle styleText({
 ''';
 
 const APPBAR_WIDGET_SCHEME = '''
-// This is code generated via package:base_application/start.dart
+// This is code generated via package:structorize/start.dart
 import 'package:packageName/src/presentation/core/functions.dart';
 import 'package:packageName/src/utils/color_util.dart'; 
 import 'package:packageName/src/utils/size_util.dart';
@@ -139,7 +139,7 @@ class DefaultAppBar extends StatelessWidget implements PreferredSizeWidget {
 ''';
 
 const SPLASH_SCREEN_SCHEME = '''
-// This is code generated via package:base_application/start.dart
+// This is code generated via package:structorize/start.dart
 
 import 'dart:async';
 import 'package:example/src/utils/constants.dart';
@@ -203,7 +203,7 @@ class _SplashScreenState extends State<SplashScreen> {
 ''';
 
 const EMPTY_SCREEN_SCHEME = '''
-// This is code generated via package:base_application/start.dart
+// This is code generated via package:structorize/start.dart
  
 import 'package:packageName/i18n/i18n.dart';
 import 'package:flutter/material.dart';
@@ -237,7 +237,7 @@ class _EmptyScreenState extends State<EmptyScreen> {
 ''';
 
 const TRANSPARAENT_ROUTE_SCHEME = '''
-// This is code generated via package:base_application/start.dart
+// This is code generated via package:structorize/start.dart
  
 import 'package:flutter/material.dart';
 
@@ -284,7 +284,7 @@ class TransparentPageRoute<T> extends PageRoute<T> {
 ''';
 
 const ICON_SVG_SCHEME = '''
-// This is code generated via package:base_application/start.dart
+// This is code generated via package:structorize/start.dart
  
 import 'package:packageName/src/utils/size_util.dart';
 import 'package:packageName/src/utils/color_util.dart';
@@ -315,7 +315,7 @@ class CustomIcon extends BaseComponent {
 
 
 const BOTTOM_SHEET_SCHEME = '''
-// This is code generated via package:base_application/start.dart
+// This is code generated via package:structorize/start.dart
  
 import 'package:packageName/src/utils/color_util.dart';
 import 'package:flutter/material.dart';

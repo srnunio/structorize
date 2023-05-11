@@ -1,7 +1,7 @@
 
 
 const ABSTRACT_NAVIGATOR_SERVICE_SCHEME  = '''
-// This is code generated via package:base_application/start.dart
+// This is code generated via package:structorize/start.dart
 
 import 'package:flutter/material.dart';
 

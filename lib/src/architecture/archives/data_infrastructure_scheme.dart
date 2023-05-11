@@ -1,5 +1,5 @@
 const API_ENDPOINTS_SCHEME = '''
-// This is code generated via package:base_application/start.dart
+// This is code generated via package:structorize/start.dart
 abstract class ApiEndpoints { 
   static const String _host = 'WRITE HERE YOUR HOST';
   static const String _baseUrl = 'https://\$_host';
@@ -8,7 +8,7 @@ abstract class ApiEndpoints {
 ''';
 
 const DIO_BUILDER_SCHEME = '''
-// This is code generated via package:base_application/start.dart
+// This is code generated via package:structorize/start.dart
 import 'package:dio/dio.dart';
 import 'package:dio/io.dart';
 
@@ -58,7 +58,7 @@ class DioBuilder {
 
 
 const IMPLEMENTATION_NAVIGATOR_SERVICE_SCHEME  = '''
-// This is code generated via package:base_application/start.dart
+// This is code generated via package:structorize/start.dart
 
 import 'package:packageName/src/domain/core/navigator/navigation_service.dart';
 import 'package:packageName/src/presentation/core/transparent_page_route.dart';

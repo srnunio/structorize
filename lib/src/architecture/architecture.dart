@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:base_application/src/entities/folder.dart';
-import 'package:base_application/src/extension/folder_extension.dart';
-import 'package:base_application/src/file/file_tool.dart';
+import 'package:structorize/src/entities/folder.dart';
+import 'package:structorize/src/extension/folder_extension.dart';
+import 'package:structorize/src/file/file_tool.dart';
 
 import '../log.dart';
 

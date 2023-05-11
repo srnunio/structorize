@@ -1,6 +1,6 @@
-import 'package:base_application/src/entities/info.dart';
-import 'package:base_application/src/extension/folder_extension.dart';
-import 'package:base_application/src/file/file_tool.dart';
+import 'package:structorize/src/entities/info.dart';
+import 'package:structorize/src/extension/folder_extension.dart';
+import 'package:structorize/src/file/file_tool.dart';
 
 extension FileInfoExtension on FileInfo {
   String get path => _getPath();

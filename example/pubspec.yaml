@@ -59,7 +59,7 @@ dev_dependencies:
   gen_i18n: ^1.0.0
   
   # remove this 
-  base_application:
+  structorize:
     path: ../  
 
   # Testing

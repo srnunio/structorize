@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:base_application/src/extension/file_info_extension.dart';
+import 'package:structorize/src/extension/file_info_extension.dart';
 
 import 'architecture/architecture.dart';
 import 'architecture/archives/data_application_scheme.dart';

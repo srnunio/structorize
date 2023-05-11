@@ -1,3 +1,4 @@
-## 1.0.0
+## 0.0.1
 
-- Initial version.
+- Generate folder structure (DDD)
+- Generate resources for translation

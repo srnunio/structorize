@@ -140,7 +140,7 @@ dependencies:
   pull_to_refresh: ^2.0.0
   customized:
     git:
-      url: https://github.com/EdvaldoMartins/customized
+      url: https://github.com/srnunio/customized
 
   # Dependency Injection
   get_it: ^7.1.2

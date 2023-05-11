@@ -39,7 +39,7 @@ This will create the following structure (Domain Driven Design):
     └── lib                         # Predefined directory
         ├── i18n                    # Responsible for translation classes
         ├── src                     
-        │   ├── application         # Application layer includes dto and usecase 
+        │   ├── application         # Application layer includes dto and usecase
         │   ├── domain              # Domain layer includes model and service
         │   ├── infrastructure      # Infrastructure layer includes repository, firebase and sqflite
         │   ├── injection           # Injection responsible for the configuration of dependency injections 

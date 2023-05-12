@@ -176,10 +176,6 @@ dev_dependencies:
   build_resolvers: ^2.0.1 
   gen_i18n: ^1.0.0
   
-  # remove this 
-  structorize:
-    path: ../  
-
   # Testing
   mockito: ^5.0.10
 

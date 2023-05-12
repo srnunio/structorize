@@ -1,6 +1,6 @@
 name: structorize
 description: With just a few commands I create all The structure needed to get your Flutter project ready to run.
-version: 0.0.1
+version: 0.0.1+2
 homepage: https://github.com/srnunio/structorize
 repository: https://github.com/srnunio/structorize
 

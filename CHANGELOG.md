@@ -1,4 +1,3 @@
-## 0.0.1
+## 0.0.1+2
 
-- Generate folder structure (DDD)
-- Generate resources for translation
+- Generate Splash Screen Fixed 

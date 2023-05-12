@@ -7,7 +7,7 @@ The structure needed to get your Flutter project ready to run.
 
 ```yaml
 dev_dependencies:
-  structorize: ^0.0.1
+  structorize: ^0.0.1+2
 ```
 
 # Setup

@@ -142,7 +142,7 @@ const SPLASH_SCREEN_SCHEME = '''
 // This is code generated via package:structorize/start.dart
 
 import 'dart:async';
-import 'package:example/src/utils/constants.dart';
+import 'package:packageName/src/utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:packageName/src/injection/injection.dart';
